@@ -90,12 +90,12 @@ const Home = () => {
     setSubmitStatus("");
 
     try {
-      // Initialize EmailJS (replace with your actual service ID, template ID, and public key)
+      // Initialize EmailJS
       await emailjs.sendForm(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        "service_qjra6pe", // EmailJS service ID
+        "template_rcgpewf", // EmailJS template ID
         formRef.current!,
-        "YOUR_PUBLIC_KEY", // Replace with your EmailJS public key
+        "7wzNJ8y8Z9UGXW4lu", // EmailJS public key
       );
 
       setSubmitStatus("success");
