@@ -168,7 +168,7 @@ const HeroSection = ({
             asChild
             className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white px-8 py-6 text-lg shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all duration-300"
           >
-            <a href="/intressai.pdf" download>
+            <a href="/KARRISAICHETANRESUME.pdf" download>
               <Download className="mr-2 h-5 w-5" /> Resume
             </a>
           </Button>
